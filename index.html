@@ -1,0 +1,2916 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+      body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+#navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-left: 200px;
+    #left{
+        display: flex;
+        flex-direction: row;
+        align-items:center ;
+        justify-content:center;
+        #img{
+            padding: 5px 10px; 
+            width: 100px;
+            margin-left: -130px;
+        }
+    }
+    #right{
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+        #one{
+            font-size: 17px;
+        }
+        #one:hover{
+            color: blue;
+        }
+        #two{
+            font-size: 17px;
+        }
+        #two:hover{
+            color: blue;
+        }
+        #three{
+            font-size: 17px;
+        }
+        #three:hover{
+            color: blue;
+        }
+        #four{
+            font-size: 17px;
+        }
+        #four:hover{
+            color: blue;
+        }
+        #five{
+            font-size: 17px;
+        }
+        #five:hover{
+            color: blue;
+        }
+        #six{
+            font-size: 17px;
+        }
+        #six:hover{
+            color: blue;
+        }
+        #seven{
+            font-size: 17px;
+        }
+        #seven:hover{
+            color: blue;
+        }
+        button{
+            font-size: 17px;
+            height: 40px;
+            width: 95px;
+            border-radius: 5px;
+            border: 1px,blue solid;
+        }
+        button:hover{
+            color: blue;
+            background-color: pink;
+
+        }
+        #req{
+            font-size: 18px;
+            background-color: red;
+            height: 35px;
+            width: 130px;
+            border-radius: 5px;
+            text-align: center;
+            border:1px black solid;
+        }
+    }
+}
+#home{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    background-image: url("https://assets-v2.scaler.com/assets/academy/svg/banner-background-34136d3a9ddff172e6bae6e3d8283c452231dcda2196b055bfa2e34e222754b7.svg");
+    width: 100%;
+    padding: 40px;
+    #home1{
+        display: flex;
+        flex-direction: column;
+        align-items:start;
+        justify-content: start;
+        gap: 30px;
+        padding: 60px;
+        h2{
+            color: white;
+        }
+        #sec{
+            color: rgba(255, 255, 255, 0.651);
+            font-size: 20px;
+            b{
+                color:white;
+            }
+        }
+        button{
+            background-color:  rgb(197, 87, 105);
+            height: 50px;
+            width:150px;
+        }
+        button:hover{
+            background-color: white
+        }
+        #btn1{
+          background-color: red;
+        }
+        #btn2{
+          background-color: white;
+        }
+        #thi{
+            color: white;
+            b{
+                color:rgb(250, 250, 10);
+            }
+        }
+    }
+    #home2{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border: 2px black solid;
+        gap: 30px;
+        padding: 40px 30px ;
+        height: 500px; 
+        width:600px;
+        overflow: scroll;
+        #one{
+            font-size: 30px;
+            b{
+                color: rgb(202, 56, 56);
+            }
+        } 
+        #login{
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            justify-content: center;
+            gap: 20px;
+            padding: 0px 20px;
+            .name{
+                height: 50px;
+                width: 380px;
+                border: 1px rgb(138, 131, 131) solid;
+            }
+           .email{
+                height: 45px;
+                width: 380px;
+            }
+            .phone{
+                    gap: 20px;
+                    .phno{
+                        height: 40px;
+                        width:315px;
+                    }
+                    #all{
+                        display: flex;
+                        flex-direction: column;
+                        align-items:center;
+                        justify-content: center;
+                        gap: 30px; 
+                        #fir{
+                        display: flex;
+                        flex-direction: row;
+                        align-items:center;
+                        justify-content: center;
+                        gap: 10px;
+                        padding: 30px 0px;
+                        .coll{
+                            height: 35px;
+                            width: 255px;
+                            border: 1px rgb(138, 131, 131) solid;
+                        }
+                    }
+                    .coll1{
+                        height: 40px;
+                        width: 390px;
+                        border: 1px rgb(138, 131, 131) solid;
+                    }
+                    .coll2{
+                        height: 40px;
+                        width: 390px;
+                        border: 1px rgb(138, 131, 131) solid;
+                    }
+                    .form-check{
+                        border: 1px black solid;
+                        border-radius: 5px;
+                        height:50px ;
+                        width: 400px;
+                    }
+                }
+            }
+        }
+        #home3{
+            display: flex;
+            flex-direction: row;
+            align-items:center;
+            justify-content:center ;
+            gap: 20px;
+            button{
+                background-color: gray;
+                color:white;
+                height: 48px;
+                border-radius: 5px;
+                border: 2px whitesmoke solid;
+            }
+            #peo{
+                width:35px ;
+                
+            }
+            div{
+                font-size: 15px;
+                color: red;
+            }
+        }
+        #home4{
+            display: flex;
+            flex-direction: row;
+            align-items:center;
+            justify-content: center;
+            gap: 5px;
+            #fir{
+                font-size: 18px;
+                color: rgba(128, 128, 128, 0.863);
+            }
+            div{
+                color: rgb(64, 64, 177);
+                font-size:18px ;
+            }
+        }
+        div{
+            font-size: 11px;
+        }
+        div:hover{
+            u{
+                color: blue;
+               
+            }
+        }
+    }
+}
+#cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 5px;
+    background-color: white;
+    #c1 {
+        font-size: 30px;
+        padding: 50px;
+        b {
+            font-weight: bold;
+        }
+    }
+
+    #c2 {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 40px;
+
+        .card {
+            text-align: center;
+            align-items: center;
+            padding: 40px;
+            height: 100%;
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+
+            img {
+                height: 50px;
+                width: 70px;
+            }
+
+            #card-body {
+                height: 45%;
+                width: 140%;
+                div{
+                    font-size: 20px;
+                    color: white;
+                }
+
+                #line1 {
+                    height: 30px;
+                    width: 150px;
+                    background-color: rgba(255, 166, 0, 0.76);
+                    rotate: 45deg;
+                    position: absolute;
+                    top: 0px;
+                    right: -35px;
+                }
+
+                #line2 {
+                    height: 30px;
+                    width: 150px;
+                    background-color: violet;
+                    rotate: 45deg;
+                    position: absolute;
+                    top: 0px;
+                    right: -35px;
+                }
+
+                #line3 {
+                    height: 30px;
+                    width: 150px;
+                    background-color: lightseagreen;
+                    rotate: 45deg;
+                    position: absolute;
+                    top: 0px;
+                    right: -35px;
+                }
+
+                #line4 {
+                    height: 30px;
+                    width: 150px;
+                    background-color: yellow;
+                    rotate: 45deg;
+                    position: absolute;
+                    top: 0px;
+                    right: -35px;
+                }
+
+                #line5 {
+                    height: 30px;
+                    width: 150px;
+                    background-color: skyblue;
+                    rotate: 45deg;
+                    position: absolute;
+                    top: 0px;
+                    right: -35px;
+                }
+
+                #line6 {
+                    height: 30px;
+                    width: 150px;
+                    background-color: orange;
+                    rotate: 45deg;
+                    position: absolute;
+                    top: 0px;
+                    right: -35px;
+                }
+            }
+        }
+    }
+}
+#cnext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    #main{
+        font-size: 30px;
+        padding: 50px;
+    }
+    #card1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        text-align: center;
+        #c1{
+            display: flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            border: 1px gray solid;
+            border-radius: 10px;
+            padding: 10px;
+            #matt1{
+                font-size: 17px;
+                color: gray;
+                width: 300px;
+            }
+        }
+        #c2{
+            display: flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            border: 1px gray solid;
+            /* padding: 20px 20px 20px 20px; */
+            border-radius: 10px;
+            padding: 10px;
+            #pause{
+                font-size: 17px;
+                color: gray;
+                width: 300px;
+            }
+        }
+        #c3{
+            display: flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            border: 1px gray solid;
+            /* padding: 20px 20px 20px 20px; */
+            border-radius: 10px;
+            padding: 10px;
+            #decide{
+                font-size: 17px;
+                color: gray;
+                width: 300px;
+            }
+        }
+    }
+    #card2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        text-align: center;
+        #c4{
+            display: flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            border: 1px gray solid;
+            /* padding: 20px 20px 20px 20px; */
+            border-radius: 10px;
+            padding: 10px;
+            #acess{
+                font-size: 17px;
+                color: gray;
+                width: 300px;
+            }
+        }
+        #c5{
+            display: flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            border: 1px gray solid;
+            /* padding: 31px 20px 31px 20px; */
+            border-radius: 10px;
+            padding: 18px;
+            #get{
+                font-size: 17px;
+                color: gray;
+                width: 300px;
+            }
+        }
+    }
+}
+ #curriculum {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(135, 207, 235, 0.734);
+    width: 100%;
+    gap: 30px;
+    padding: 20px;
+
+    #curriculumhead {
+        font-size: 30px;
+
+        a {
+            font-weight: bold;
+        }
+
+        b {
+            border-bottom: 2px rgb(15, 169, 230) solid;
+        }
+    }
+
+    #currmix1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+
+        #curr {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            background: white;
+            padding: 20px 20px;
+            gap: 100px;
+
+            #curr1 {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                #currhead {
+                    font-size: 30px;
+                }
+            }
+
+            #radio {
+                height: 40px;
+                width: 40px;
+            }
+        }
+        #curr:hover {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            background: white;
+            padding: 20px 20px;
+            gap: 100px;
+            background-color: rgba(135, 207, 235, 0.734);
+    
+            #curr1 {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+    
+                #currhead {
+                    font-size: 30px;
+                }
+            }
+    
+            #radio {
+                height: 40px;
+                width: 40px;
+            }
+        }
+    }
+    #currmix2 {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        #currmix21 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            #currall1 {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                background: white;
+                padding: 10px 20px;
+                gap: 20px;
+                border-radius: 10px;
+                #curr {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    #curr1 {
+                        font-size: 10px;
+                    }
+
+                    #curr2 {
+                        font-size: 18px;
+                    }
+                }
+
+                #mon {
+                    font-size: 15px;
+                    padding-top: 15px;
+                }
+            }
+
+            #currall1:hover {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                background: rgb(22, 160, 214);
+                color: white;
+                padding: 10px 20px;
+                gap: 20px;
+                border-radius: 10px;
+
+                #curr {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    #curr1 {
+                        font-size: 11px;
+                    }
+
+                    #curr2 {
+                        font-size: 18px;
+                    }
+                }
+
+                #mon {
+                    font-size: 15px;
+                    padding-top: 15px;
+                }
+            }
+
+            #currall2 {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                background: white;
+                padding: 10px 20px;
+                gap: 60px;
+                width: 100%;
+                border-radius: 10px;
+
+                #curr {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    #curr1 {
+                        font-size: 10px;
+                    }
+
+                    #curr2 {
+                        font-size: 16px;
+                    }
+                }
+
+                #mon {
+                    font-size: 14px;
+                    padding-top: 15px;
+                }
+            }
+
+            #currall2:hover {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                background-color: rgb(22, 160, 214);
+                padding: 10px 20px;
+                gap: 60px;
+                width: 100%;
+                border-radius: 10px;
+
+                #curr {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    #curr1 {
+                        font-size: 11px;
+                    }
+
+                    #curr2 {
+                        font-size: 18px;
+                    }
+                }
+
+                #mon {
+                    font-size: 14px;
+                }
+            }
+
+            #currall3 {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                background: white;
+                padding: 10px 20px;
+                gap: 230px;
+                width: 100%;
+                border-radius: 10px;
+
+                #curr {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    #curr1 {
+                        font-size: 10px;
+                    }
+
+                    #curr2 {
+                        font-size: 16px;
+                    }
+                }
+
+                #mon {
+                    font-size: 14px;
+                    padding-top: 15px;
+                }
+            }
+
+            #currall3:hover {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                background-color: rgb(22, 160, 214);
+                padding: 10px 20px;
+                gap: 270px;
+                width: 100%;
+                border-radius: 10px;
+
+                #curr {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    #curr1 {
+                        font-size: 11px;
+                    }
+
+                    #curr2 {
+                        font-size: 18px;
+                    }
+                }
+
+                #mon {
+                    font-size: 15px;
+                }
+            }
+
+            #currall4 {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                background: white;
+                padding: 10px 20px;
+                gap: 60px;
+                width: 100%;
+                border-radius: 10px;
+
+                #curr {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    #curr1 {
+                        font-size: 10px;
+                    }
+
+                    #curr2 {
+                        font-size: 16px;
+                    }
+                }
+
+                #mon {
+                    font-size: 13px;
+                    padding-top: 15px;
+                }
+            }
+
+            #currall4:hover {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                background-color: rgb(22, 160, 214);
+                padding: 10px 20px;
+                gap: 60px;
+                width: 100%;
+                border-radius: 10px;
+
+                #curr {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    #curr1 {
+                        font-size: 11px;
+                    }
+
+                    #curr2 {
+                        font-size: 16px;
+                    }
+                }
+
+                #mon {
+                    font-size: 13px;
+                }
+            }
+
+            #currall5 {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                background: white;
+                padding: 10px 20px;
+                gap: 130px;
+                width: 100%;
+                border-radius: 10px;
+
+                #curr {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    #curr1 {
+                        font-size: 10px;
+                    }
+
+                    #curr2 {
+                        font-size: 14px;
+                    }
+                }
+
+                #mon {
+                    font-size: 12px;
+                    padding-top: 15px;
+                }
+            }
+
+            #currall5:hover {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                background-color: rgb(22, 160, 214);
+                padding: 10px 20px;
+                gap: 130px;
+                width: 100%;
+                border-radius: 10px;
+
+                #curr {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    #curr1 {
+                        font-size: 11px;
+                    }
+
+                    #curr2 {
+                        font-size: 14px;
+                    }
+                }
+
+                #mon {
+                    font-size: 12px;
+                }
+            }
+
+            #currall6 {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                background: white;
+                padding: 10px 20px;
+                gap: 260px;
+                width: 100%;
+                border-radius: 10px;
+
+                #curr {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    #curr1 {
+                        font-size: 10px;
+                    }
+
+                    #curr2 {
+                        font-size: 17px;
+                    }
+                }
+
+                #mon {
+                    font-size: 11px;
+                    padding-top: 15px;
+                }
+            }
+
+            #currall6:hover {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                background-color: rgb(22, 160, 214);
+                padding: 10px 20px;
+                gap: 260px;
+                width: 100%;
+                border-radius: 10px;
+
+                #curr {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    #curr1 {
+                        font-size: 11px;
+                    }
+
+                    #curr2 {
+                        font-size: 18px;
+                    }
+                }
+
+                #mon {
+                    font-size: 11px;
+                }
+            }
+        }
+
+        #currmix3 {
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+            height: 500px;
+            overflow: scroll;
+            #currmix31 {
+                display: flex;
+                flex-direction: column;
+                background-color: rgb(22, 160, 214);
+                padding: 20px 50px;
+                gap: 10px;
+
+                 #curr3head {
+                    color: white;
+                    font-size: 20px;
+                    border-bottom: 2px white solid; 
+                } 
+
+                #curr3sub {
+                    display: flex;
+                    align-items: center;
+                    gap: px;
+
+                    a {
+                        font-size: 20px;
+                        color: white;
+                        gap: 10px;
+                    }
+
+                    i {
+                        color: white;
+                        font-size: 8px;
+                    }
+                }
+
+                #curr3sub1 {
+                    display: flex;
+                    align-items: center;
+                    gap: 30px;
+
+                    a {
+                        font-size: 15px;
+                        color: white;
+                        gap: 10px;
+                    }
+
+                    i {
+                        color: white;
+                        font-size: 8px;
+                    }
+                } 
+            } 
+            #currmix31 {
+                display: flex;
+                flex-direction: column;
+                background-color: rgb(22, 160, 214);
+                padding: 20px 50px;
+                gap: 10px;
+
+                 #curr3head {
+                    color: white;
+                    font-size: 20px;
+                    border-bottom: 2px white solid; 
+                } 
+
+                #curr3sub {
+                    display: flex;
+                    align-items: center;
+                    gap: px;
+
+                    a {
+                        font-size: 20px;
+                        color: white;
+                        gap: 10px;
+                    }
+
+                    i {
+                        color: white;
+                        font-size: 8px;
+                    }
+                }
+
+                #curr3sub1 {
+                    display: flex;
+                    align-items: center;
+                    gap: 30px;
+
+                    a {
+                        font-size: 15px;
+                        color: white;
+                        gap: 10px;
+                    }
+
+                    i {
+                        color: white;
+                        font-size: 8px;
+                    }
+                }      
+            }
+            #currmix31 {
+                display: flex;
+                flex-direction: column;
+                background-color: rgb(22, 160, 214);
+                padding: 20px 50px;
+                gap: 10px;
+
+                 #curr3head {
+                    color: white;
+                    font-size: 20px;
+                    border-bottom: 2px white solid; 
+                } 
+
+                #curr3sub {
+                    display: flex;
+                    align-items: center;
+                    gap: px;
+
+                    a {
+                        font-size: 20px;
+                        color: white;
+                        gap: 10px;
+                    }
+
+                    i {
+                        color: white;
+                        font-size: 8px;
+                    }
+                }
+
+                #curr3sub1 {
+                    display: flex;
+                    align-items: center;
+                    gap: 30px;
+
+                    a {
+                        font-size: 15px;
+                        color: white;
+                        gap: 10px;
+                    }
+
+                    i {
+                        color: white;
+                        font-size: 8px;
+                    }
+                }
+            }
+        }
+    }
+    button {
+        color: white;
+        background: rgb(250, 3, 69);
+        border: none;
+        height: 50px;
+        width: 400px;
+        margin-left: 50%;
+        font-size: 18px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+#take {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    background: navy;
+    padding: 20px;
+    #take1 {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        gap: 20px;
+        
+        #takehead {
+            font-size: 30px;
+            font-weight: bold;
+            color: white;
+            padding: 10px;
+        }
+
+        #takesub {
+            color: white;
+            padding: 10px;
+        }
+
+        #takebody {
+            display: flex;
+            flex-direction: row;
+            gap: 45px;
+            /* padding-left: 15px;  */
+            #takebody1 {
+                display: flex;
+                flex-direction: row;
+                color: white;
+                 /* width:250px;  */
+
+                i {
+                    color: orange;
+                }
+            }
+        }
+
+        button {
+            color: white;
+            background: rgb(172, 18, 18);
+            cursor: pointer;
+            padding: 20px 40px;
+            border-radius: 10px;
+            border: none;
+            font-size: 20px;
+        }
+    }
+
+    img {
+        height: 300px;
+        width: 340px;
+    } 
+}
+#reviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    #r0 {
+      font-size: 30px;
+      width: 850px;
+      padding: 20px;
+    }
+    #r1 {
+      font-size: 15px;
+      padding: 20px;
+    }
+    #cards {
+      width: 95vw;   
+      /* border: 2px solid black; */
+      gap:10px; 
+      display: grid;
+      overflow-x: scroll;
+      grid-template-columns: repeat(12,1fr);
+      /* padding: 10px; */
+      box-shadow: none;
+      .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+          width: 350px; 
+         padding: 20px 0px; 
+         gap: 10px;
+        #h1 {
+          display: flex;
+          flex-direction: row;
+          justify-content:center;
+          align-items: center;
+          gap: 20px;
+          #headers {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            height: 120px;
+            #image{
+                height: 50px;
+                width: 50px;
+                border-radius: 90px;
+            }
+            #m0 {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: start;
+              #m1 {
+                font-size: 16px;
+                /* width: 120px; */
+              }
+              #m2{
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  #teaching {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    #t0 {
+      font-size: 25px;
+      padding-top: 20px;
+    }
+    #p {
+      text-align: center;
+      font-size: 17px;
+      padding: 40px;
+      /* width: 900px; */
+    }
+    #t1 {
+    }
+    #carouselExample {
+      /* width: 100%; */
+      .carousel-inner {
+        .carousel-item {
+          #cards {
+            gap: 20px;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            .card {
+              .card-header {
+              }
+              .card-body {
+                .card-title {
+                  color: black;
+                  .card-text {
+                  }
+                }
+              }
+              .card-footer{
+                font-size: 20px;
+                color: #0744ad;
+              }
+              .card-footer:hover {
+                color: skyblue;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  #scaler {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 40px;
+    background-color: rgb(60, 152, 189);
+    #s1 {
+      border-radius: 100%;
+      padding: 30px;
+      background-color: lightskyblue;
+    }
+    #s2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      #s3 {
+        font-size: 30px;
+      }
+      #s4 {
+        font-size: 18px;
+      }
+    }
+    #s5 {
+      button {
+        height: 40px;
+        width: 200px;
+        border-radius: 5px;
+        border: none;
+        background-color: white;
+        color: black;
+      }
+      button:hover{
+        color: rgb(61, 207, 58);
+      }
+    }
+  }
+  #next {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding: 20px 0px;
+    background-color: rgba(173, 216, 230, 0.432);
+    #n1 {
+      font-size: 31px;
+      padding: 15px;
+    }
+    #p {
+      font-size: 17px;
+      padding: 15px;
+      padding-top: 20px;
+      b {
+        color: #358;
+      }
+    }
+    #n3 {
+      font-size: 18px;
+      color: #358;
+      padding: 15px;
+      padding-bottom: 20px;
+    }
+    #n4 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      #n5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        gap: 40px;
+        padding: 20px 0px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        #n6 {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          #n7 {
+            font-size: 20px;
+            width: 200px;
+          }
+        }
+      }
+      #n8 {
+        padding: 20px;
+        background-color: rgb(45, 120, 167);
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+      }
+    }
+  }
+  #services{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding:50px;
+    gap:10px;
+    box-shadow: none;
+    #s1{
+      font-size:30px;
+      font-weight: bold;
+    }
+    #s2{
+      font-size: 17px;
+      color: gray;
+    }
+    #cards{
+      display: flex;
+      flex-direction:row;
+      justify-content:center;
+      align-items: center;
+      gap:10px;
+      box-shadow: none; 
+      .card{
+        height:200px;
+        width:50px;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        gap:10px;
+        img{
+          height:70px;
+          width:70px;
+          align-items: center;
+          text-align: center;
+          margin-top: 20px;
+        }
+        .card-body{
+          .card-text{
+            width:220px;
+            color: gray;
+          }
+        }
+      }
+    }
+  }
+  #roadmap{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color:#cae0fec1 ;
+    gap:25px;
+    /* width:100%; */
+    padding:20px;
+    #r1{
+      font-size: 30px;
+      width:1000px;
+      text-align:center;
+    }
+    button{
+      height:40px;
+      width:350px;
+      background-color: #e12645;
+      color:white;
+      border-radius: 5px;
+      border:none;
+    }
+    button:hover{
+        background-color: pink;
+        color: black;
+    }
+  }
+  #learning{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    #l0{
+      font-size: 30px;
+      padding-top: 20px;
+      /* width: 1050px; */
+      /* text-align: center; */
+    }
+    #l1{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      gap: 30px;
+    .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    height: 350px;
+    width: 470px;
+    border-radius: 5px;
+    background-image: url(https://assets-v2.scaler.com/assets/academy/svg/carousel-1-f8b2a8715c72d8a7ee95dee86294c20875ab6961b6c5d51c4e4b1ef7ba1f6ce5.svg.gz);
+    .card-body{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+
+    }
+    }
+  }
+  }
+  #question {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+    /* width: 100%; */
+    #q1 {
+      font-size: 35px;
+      padding: 15px;
+    }
+    #q2 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      border-top: 1px black solid;
+      #q3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        border-right: 0px black solid; 
+        padding: 23px;
+        #q4 {
+          font-size: 18px;
+        }
+        #q4:hover{
+            background-color: rgb(110, 110, 192);
+            /* height: 25px; */
+        }
+      }
+      #q5 {
+        border-left: 1px black solid; 
+        gap: 20px;
+        /* padding: 20px 40px; */
+        /* width: 900px; */
+        #q6 {
+          font-size: 30px;
+        }
+        #accordionPanelsStayOpenExample {
+          width: 900px;
+          padding: 20px 20px;
+          .accordion-item {
+            margin-bottom: 20px;
+            .accordion-header button {
+              background: none;
+              border: none;
+              outline: none;
+              box-shadow: none;
+              font-size: 18px;
+            }
+            .accordion-button:hover {
+              color: skyblue;
+            }
+          }
+        }
+      }
+    }
+  }
+  #footer {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: #202738;
+    padding: 30px 50px;
+    gap: 10px; 
+    width: 100%;
+    #part1 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+      #one {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px; 
+        #main {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 15px; 
+
+          #photo {
+            width: 100px;
+            height: 50px;
+          }
+          #line {
+            color: white;
+          }
+          #photo2 {
+            width: 150px;
+            height: 25px;
+          }
+        }
+        #sub {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+
+          #block {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            #first {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              gap: 5px;
+              #text {
+                color: white;
+              }
+            }
+          }
+        }
+      }
+      #two {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        #heading {
+          font-size: 25px;
+          color: white;
+        }
+        #heading:hover{
+            color: rgb(233, 18, 53);
+        }
+        #matter {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          color: #698fb1;
+          #text {
+            font-size: 17px;
+          }
+          #text:hover{
+            color: aquamarine;
+          }
+        }
+      }
+      #three {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        gap: 20px;
+        #heading {
+          font-size: 24px;
+          color: white;
+        }
+        #heading:hover{
+            color: rgb(233, 18, 53);
+        }
+        #matter {
+          display: flex;
+          flex-direction: column;
+          justify-content: start;
+          align-items: start;
+          color: #698fb1;
+          #text {
+            font-size: 17px;
+          }
+          #text:hover{
+            color: aquamarine;
+          }
+        }
+      }
+      #four {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        #heading {
+          font-size: 25px;
+          color: white;
+        }
+        #heading:hover{
+            color: rgb(233, 18, 53);
+        }
+        #matter {
+          display: flex;
+          flex-direction: column;
+          justify-content:center;
+          align-items: center;
+          color: #698fb1;
+
+          #line {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            #text {
+              font-size: 17px;
+            }
+            #text:hover{
+                color: aquamarine;
+              }
+          }
+        }
+      }
+    }
+    #part2 {
+      color: #698fb1;
+    }
+    #part3 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      padding-top:20px ;
+      border-top: 1px white solid;
+      #heading {
+        color: white;
+        font-size: 23px;
+      }
+      #lines {
+        color: #698fb1;
+        font-size: 18px;
+      }
+    }
+  }
+</style>
+<body>
+  <div id="navbar">
+      <div id="left">
+          <img id="img" src="https://assets-v2.scaler.com/assets/academy/svg/scaler-53f7b55b0dc3a8f18264d872fd53821b101c3bb6c5c1b282e609e41bae2641a3.svg.gz" alt="scaler academy">
+      </div>
+      <div id="right">
+          <div id="one">Curriculam</div>
+          <div id="two">Riviews</div>
+          <div id="three">Teaching</div>
+          <div id="four">Mentorship</div>
+          <div id="five">Community</div>
+          <div id="six">Careers</div>
+          <div id="seven">FAQ's</div>
+          <button>login</button>
+          <div id="req">Request A Call </div>
+      </div>
+  </div>
+  <div id="home">
+      <div id="home1">
+          <h2>Your Path to a Successful Tech Career!</h2>
+          <div id="sec">Now experience the program for <b>FREE</b> </div>
+          <div id="two">
+              <button id="btn1">Book a Live Class</button>
+              <button id="btn2">Explore Academy</button>
+          </div>
+          <div id="thi"> NEXT BATCH STARTS<b> MID-OCTOBER </b></div>
+      </div>
+      <div id="home2">
+          <div id="one">Book a Live Class, For <b>Free!</b></div>
+          <div id="login">
+              <input class="name" type="text" placeholder="Name" aria-label=".form-control-lg example">
+              <input class="email" type="text" placeholder="Email" aria-label="default input example">
+              <div class="phone">
+                      <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">+91</button>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Enter Number</a></li>
+                          <li><a class="dropdown-item" href="#">Alternate Number</a></li>
+                      </ul>
+                      <input type="text" class="phno" aria-label="Text input with dropdown button">
+                      <div id="all">
+                          <div id="fir">
+                              <div class="dropdown-center">
+                                  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Graduation
+                                  </button>
+                                  <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">Enter Course</a></li>
+                                  </ul>
+                              </div>
+                              <select class="coll" aria-label="Large select example">
+                                  <option selected>College</option>
+                                  <option value="1">Type to Search</option>
+                              </select>
+                          </div>
+                             
+                          <select class="coll1" aria-label="Large select example">
+                                  <option selected>Company</option>
+                                  <option value="1">Type to Search</option>
+                          </select>
+                          <select class="coll2" aria-label="Large select example">
+                                  <option selected>Job Title</option>
+                                  <option value="1">Type to Search</option>
+                          </select>
+                          <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                              <label class="form-check-label" for="flexCheckIndeterminate">
+                                
+                                  <b>WhatsApp/SMS Notifications</b>
+                                  Never miss out on reminders and updates from us!
+                              </label>
+                            </div>
+                      </div> 
+                  </div>
+              </div>
+              <div id="home3">
+                  <button>Continue Booking Live Class</button>
+                  <img id="peo" src="https://assets-v2.scaler.com/assets/scaler/svg/people-group-61788bad09e0699aa3090ab64b81944c9fc9ccb80ff5db9abb267dd36e0d626d.svg.gz" alt="people">
+                  <div>Limited seats left</div>
+              </div>
+              <div id="home4">
+                  <div id="fir">Already have an account?</div>
+                  <div>Click here</div>
+              </div>
+              <div>By creating an account I have read and agree to Scaler’s <u>Terms </u>and <u>Privacy Policy</u></div>
+          </div>
+      </div>
+  </div>
+  <div id="cards">
+      <div id="c1">
+          A program for engineers to master <b>Problem Solving & System Design</b>
+      </div>
+      <div id="c2">
+          <div class="card" style="width: 18rem; background-color: lightseagreen">
+              <img src="https://assets-v2.scaler.com/assets/academy/svg/at-a-glance/structured-c36517d8d41efb3a24cbcb3fe1c8b27ffcfacb6b1462ec3e60516504a07eaff6.svg.gz"
+                  class="card-img-top" alt="..." />
+              <div id="card-body">
+                   <div>Structured, industry vetted curriculum</div>
+                  <div id="line1"></div>
+              </div>
+          </div>
+          <div class="card" style="width: 18rem; background-color: darksalmon">
+              <img src="https://assets-v2.scaler.com/assets/academy/svg/at-a-glance/live-classes-afff2e39f63a26a19ee4ae844d4b0891c20c50e4b670a224564640cbb973f867.svg.gz"
+                  class="card-img-top" alt="..." />
+              <div id="card-body">
+                  <div><b>Live classes by faculty</b> who have been there, done that</div>
+                  <div id="line2"></div>
+              </div>
+          </div>
+          <div class="card" style="width: 18rem; background-color: lightgreen">
+              <img src="https://assets-v2.scaler.com/assets/academy/svg/at-a-glance/project1-9fc6130d4e271198d5f051da0712b27627c872a353dac61c91f248e4f60b6ddf.svg.gz"
+                  class="card-img-top" alt="..." />
+              <div id="card-body">
+                  <div><b>Practical experience</b> through real-life projects</div>
+                  <div id="line3"></div>
+              </div>
+          </div>
+          <div class="card" style="width: 18rem; background-color: lightskyblue">
+              <img src="https://assets-v2.scaler.com/assets/academy/svg/at-a-glance/flexibility-94067174b36a4a38b3448219f64ccd3e42b3f32667c5ff0ec8d8fab665525d87.svg.gz"
+                  class="card-img-top" alt="..." />
+              <div id="card-body">
+                  <div>R<b>egular 1:1</b>mentorship from industry veterans</div>
+                  <div id="line4"></div>
+              </div>
+          </div>
+          <div class="card" style="width: 18rem; background-color: rgba(255, 166, 0, 0.751)">
+              <img src="https://assets-v2.scaler.com/assets/academy/svg/at-a-glance/career-support-c92399914995cba52680341de44c1ce49d292b1de0f10aeb58c3c58a79e3ad3b.svg.gz"
+                  class="card-img-top" alt="..." />
+              <div id="card-body">
+                  <div><b>Career support</b>  via a dedicated recruitment team, alumni network, etc.</div>
+                  <div id="line5"></div>
+              </div>
+          </div>
+          <div class="card" style="width: 18rem; background-color: plum">
+              <img src="https://assets-v2.scaler.com/assets/academy/svg/at-a-glance/mentor-efc7b3e100e7f2bd17f1f95f4ca28b5205ac3f4e04d4cddd064a800cc63f1c74.svg.gz"
+                  class="card-img-top" alt="..." />
+              <div id="card-body">
+                  <div><b> Aspirational peer group</b> of 2,000+ Scaler students & alumni</div>
+                  <div id="line6"></div>
+              </div>
+          </div>
+      </div>
+  </div> 
+  <div id="cnext">
+      <div id="main">We have designed a <span style="font-weight: bold;">  flexible program</span>  for you</div>
+      <div id="card1">
+          <div id="c1">
+              <img id="mail"
+                  src="https://assets-v2.scaler.com/assets/academy/svg/missed-class-logo-60d09407cfb901d01f9acbf3ce40460ea42c291dc97dd6a8d9fe624594977239.svg.gz">
+              <h3>Missed a class?</h3>
+              <div id="matt1">Watch the recording later, with teaching assistants available to solve your doubts</div>
+          </div>
+          <div id="c2">
+              <img id="family"
+                  src="https://assets-v2.scaler.com/assets/academy/svg/family-logo-48c3a44b9f17f1e1a6ebcfa8e9ec7fa2370c27094caf996810c02754e307b3d1.svg.gz">
+              <h3>Work / family needs time?</h3>
+              <div id="pause">Pause your course and restart a month later with the next batch!</div>
+          </div>
+          <div id="c3">
+              <img id="flat"
+                  src="https://assets-v2.scaler.com/assets/academy/svg/office-d6141a2e19c03a99003316e141cdb625675a0498ba05e2df5d4ebb128bc21418.svg.gz">
+              <h3>Jobs & class timings clash?</h3>
+              <div id="decide">Decide your ideal class timing together with your classmates</div>
+          </div>
+      </div>
+      <div id="card2">
+          <div id="c4">
+              <img id="note" src="https://assets-v2.scaler.com/assets/academy/svg/revise-8aceca46e65750c791c12d778669bf01650ef9e02c2d211ba30c6831c34946ab.svg.gz">
+              <h3>Want to revise?</h3>
+              <div id="acess">Access assignments/notes lifelong and recordings upto 6 months post course completion</div>
+          </div>
+          <div id="c5">
+              <img id="cama" src="https://assets-v2.scaler.com/assets/academy/svg/doubts-44d18551b6589cdeff9e88978faac43d7bb0787cdc74e508832d7692b4d4158b.svg.gz">
+              <h3>Have doubts?</h3>
+              <div id="get">Get them resolved over text / video by our expert teaching assistants!</div>
+          </div>
+      </div>
+  </div>
+  <div id="curriculum">
+      <div id="curriculumhead"><a>Curriculum</a> is designed to make you a <b>solid engineer</b></div>
+      <div id="currmix1">
+          <div id="curr">
+              <div id="curr1">
+                  <div id="currhead">Begineer</div>
+                  <div id="currsub">11.5 months</div>
+              </div>
+              <input type="radio" id="radio">
+          </div>
+          <div id="curr">
+              <div id="curr1">
+                  <div id="currhead">Intermediate</div>
+                  <div id="currsub">11.5 months</div>
+              </div>
+              <input type="radio" id="radio">
+          </div>
+          <div id="curr">
+              <div id="curr1">
+                  <div id="currhead">Advanced</div>
+                  <div id="currsub">9.5 months</div>
+              </div>
+              <input type="radio" id="radio">
+          </div>
+      </div>
+      <div id="currmix2">
+          <div id="currmix21">
+              <div id="currall1">
+                  <div id="curr">
+                      <div id="curr1">MODULE-1</div>
+                      <div id="curr2">Programming Language Fundamentals</div>
+                  </div>
+                  <div id="mon">2 months</div>
+              </div>
+              <div id="currall2">
+                  <div id="curr">
+                      <div id="curr1">MODULE-2</div>
+                      <div id="curr2">Data Structures and Algorithms</div>
+                  </div>
+                  <div id="mon">4.5 months</div>
+              </div>
+              <div id="currall3">
+                  <div id="curr">
+                      <div id="curr1">MODULE-3</div>
+                      <div id="curr2">SQL</div>
+                  </div>
+                  <div id="mon">0.5 months</div>
+              </div>
+              <div id="currall4">
+                  <div id="curr">
+                      <div id="curr1">MODULE-4</div>
+                      <div id="curr2">LLD and Project Specialisations</div>
+                  </div>
+                  <div id="mon">3.5 months</div>
+              </div>
+              <div id="currall5">
+                  <div id="curr">
+                      <div id="curr1">MODULE-5</div>
+                      <div id="curr2">System Design Essentials</div>
+                  </div>
+                  <div id="mon">1 months</div>
+              </div>
+              <div id="currall6">
+                  <div id="curr">
+                      <div id="curr1">MODULE-6</div>
+                      <div id="curr2">Electives</div>
+                  </div>
+                  <div id="mon">1-2 months</div>
+              </div>
+          </div>
+          <div id="currmix3">
+            <div id="currmix31">
+                <div id="curr3head">4.5 Months</div>
+                <div id="curr3sub"><i class="fa-solid fa-circle"></i><a>Data Structures and Algorithms</a></div>
+                <div id="curr3sub1"><i class="fa-regular fa-circle"></i><a>Time and Space Complexity</a></div>
+                <div id="curr3sub1"><i class="fa-regular fa-circle"></i><a>Array Problem Solving Techniques</a></div>
+                <div id="curr3sub1"><i class="fa-regular fa-circle"></i><a>Recursion</a></div>
+                <div id="curr3sub1"><i class="fa-regular fa-circle"></i><a>Backtracking</a></div>
+                <div id="curr3sub1"><i class="fa-regular fa-circle"></i><a>Hashing</a></div>
+                <div id="curr3sub1"><i class="fa-regular fa-circle"></i><a>Functions</a></div>
+                <div id="curr3sub1"><i class="fa-regular fa-circle"></i><a>1D and 2D Arrays</a></div>
+                <div id="curr3sub1"><i class="fa-regular fa-circle"></i><a>Strings</a></div>
+                <div id="curr3sub1"><i class="fa-regular fa-circle"></i><a>Memory Management</a></div>
+                <div id="curr3sub1"><i class="fa-regular fa-circle"></i><a>Strings and Pattern Matching</a></div>
+            </div>
+            <div id="currmix31">
+                <div id="curr3head">Data Structures</div>
+                <div id="curr3sub"><i class="fa-solid fa-circle"></i><a>Linked Lists</a></div>
+                <div id="curr3sub1"><i class="fa-regular fa-circle"></i><a>Stacks</a></div>
+                <div id="curr3sub1"><i class="fa-regular fa-circle"></i><a>Queues and Deques</a></div>
+                <div id="curr3sub1"><i class="fa-regular fa-circle"></i><a>Trees and BST</a></div>
+                <div id="curr3sub1"><i class="fa-regular fa-circle"></i><a>Tries</a></div>
+            </div>
+            <div id="currmix31">
+                <!-- <div id="curr3head">Advanced Problem Solving Techniques</div> -->
+                <div id="curr3sub"><i class="fa-solid fa-circle"></i><a>Advanced Problem Solving Techniques</a></div>
+                <div id="curr3sub1"><i class="fa-solid fa-circle"></i><a>Greedy</a></div>
+                <div id="curr3sub1"><i class="fa-regular fa-circle"></i><a>Dynamic Programming</a></div>
+                <div id="curr3sub1"><i class="fa-regular fa-circle"></i><a>Graphs</a></div>
+            </div>
+        </div>
+    </div>
+            <button>Download Curriculum</button>
+    </div>
+</div>
+<div id="take">
+    <div id="take1">
+        <div id="takehead">Talk to our Advisor</div>
+        <div id="takesub">AND GET</div>
+        <div id="takebody">
+            <div id="takebody1"><i class="fa-solid fa-check-double"></i>Personalized<b>Career Roadmap</b></div>
+            <div id="takebody1"><i class="fa-solid fa-check-double"></i>Free<b>Career Councling</b></div>
+            <div id="takebody1"><i class="fa-solid fa-check-double"></i>Free Access to<b>Scaler Events</b></div>
+        </div>
+        <button>Request a Call</button>
+    </div>
+    <img src="https://assets-v2.scaler.com/assets/scaler/svg/girl-advisor-d-8c3dfdfb2c1754477186102f21bd4658da55661f94f3b2f66b22bcafe084bbc0.png.gz">
+</div>
+<div id="reviews">
+    <div id="r0">Your learning is important. It's a good idea to go through
+     <b> reviews of previous students</b> to make an informed decision</div>
+      <div id="r1">1,000+ working professionals have joined the Scaler Academy family!</div>
+      <div id="cards">
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-success">
+            <div id="h1">
+            <div id="headers">
+            <div id="image"><img src="./Mayur-5dfb2aa6bbe5104c66761a9a8f777f8e3de89c23d09af6ded7047e98c2cac8d5.png.gz"></div>
+            <div id="m0">
+              <div id="m1">Mayur Kharche</div>
+              <div id="m2">SDE3</div>
+              <div id="m3"><img src="https://assets-v2.scaler.com/assets/academy/testimonial_images/Mayur-5dfb2aa6bbe5104c66761a9a8f777f8e3de89c23d09af6ded7047e98c2cac8d5.png.gz" height="50px" width="50px"></div>
+            </div>
+          </div>
+            <div id="pic"><img src="https://assets-v2.scaler.com/assets/academy/svg/scaler-logo-3186d07c6e09a5adf40102518812e5746d8476829f276493ebf9ca40350c6787.svg.gz" height="30px" width="30px"></div>
+          </div>
+          </div>
+          <div class="card-body text-success">
+            <h5 class="card-title"></h5>
+            <p class="card-text" style="color: black;">Scaler exceeded my expectations in a way I had never even thought possible. I expected a single mentor from Scaler, but I ended up getting several people who guided me throughout..</p>
+          </div>
+          <div class="card-footer bg-transparent border-success" style="color: blue;">Read More on scaler ></div>
+        </div>
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-success">
+            <div id="h1">
+            <div id="headers">
+            <div id="image"><img src="https://assets-v2.scaler.com/assets/academy/testimonial_images/Mayur-5dfb2aa6bbe5104c66761a9a8f777f8e3de89c23d09af6ded7047e98c2cac8d5.png.gz"  height="30px" width="30px"></div>
+            <div id="m0">
+              <div id="m1">Soumya Darbari</div>
+              <div id="m2">SDE2</div>
+              <div id="m3"><img src="https://th.bing.com/th?id=OIP.HGbM5WQ710B2z-Prz0SnEgHaHD&w=256&h=244&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" height="40px" width="40px"></div>
+            </div>
+          </div>
+            <div id="pic"><img src="https://assets-v2.scaler.com/assets/academy/svg/scaler-logo-3186d07c6e09a5adf40102518812e5746d8476829f276493ebf9ca40350c6787.svg.gz" height="30px" width="30px"></div>
+          </div>
+          </div>
+          <div class="card-body text-success">
+            <h5 class="card-title"></h5>
+            <p class="card-text" style="color: black;">Scaler exceeded my expectations in a way I had never even thought possible. I expected a single mentor from Scaler, but I ended up getting several people who guided me throughout..</p>
+          </div>
+          <div class="card-footer bg-transparent border-success" style="color:blue;">Read More on scaler ></div>
+        </div>
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-success">
+            <div id="h1">
+            <div id="headers">
+            <div id="image"><img src="https://assets-v2.scaler.com/assets/academy/testimonial_images/Raghvendra-3599c9a25d5ed0de5a07dfa4cff2aa9d074cc0ae095a0421f6a4f1c939ad3f71.png.gz"  height="30px" width="30px"></div>
+            <div id="m0">
+              <div id="m1">Soumya Darbari</div>
+              <div id="m2">SDE2</div>
+              <div id="m3"><img src="https://assets-v2.scaler.com/assets/academy/png/clevertap-6e234e34c1c49fef44c861f700432e4cf4c27b227e0c52839360dbba37a36bf1.png.gz" height="40px" width="40px"></div>
+            </div>
+          </div>
+            <div id="pic"><img src="https://assets-v2.scaler.com/assets/academy/svg/scaler-logo-3186d07c6e09a5adf40102518812e5746d8476829f276493ebf9ca40350c6787.svg.gz" height="30px" width="30px"></div>
+          </div>
+          </div>
+          <div class="card-body text-success">
+            <h5 class="card-title"></h5>
+            <p class="card-text" style="color: black;">Scaler exceeded my expectations in a way I had never even thought possible. I expected a single mentor from Scaler, but I ended up getting several people who guided me throughout..</p>
+          </div>
+          <div class="card-footer bg-transparent border-success" style="color:blue;">Read More on scaler ></div>
+        </div>
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-success">
+            <div id="h1">
+            <div id="headers">
+            <div id="image"><img src="https://assets-v2.scaler.com/assets/academy/testimonial_images/samrat-0284ef85e73eca0ffba307e8e4bd3037307f6652e70104dae4b3410e880c8ec9.jpg.gz"  height="30px" width="30px"></div>
+            <div id="m0">
+              <div id="m1">Mayur Kharche</div>
+              <div id="m2">SDE3</div>
+              <div id="m3"><img src="scale/immu.jpg" height="50px" width="50px"></div>
+            </div>
+          </div>
+            <div id="pic"><img src="https://assets-v2.scaler.com/assets/academy/svg/scaler-logo-3186d07c6e09a5adf40102518812e5746d8476829f276493ebf9ca40350c6787.svg.gz" height="30px" width="30px"></div>
+          </div>
+          </div>
+          <div class="card-body text-success">
+            <h5 class="card-title"></h5>
+            <p class="card-text" style="color: black;">Scaler exceeded my expectations in a way I had never even thought possible. I expected a single mentor from Scaler, but I ended up getting several people who guided me throughout..</p>
+          </div>
+          <div class="card-footer bg-transparent border-success" style="color: blue;">Read More on scaler ></div>
+        </div>
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-success">
+            <div id="h1">
+            <div id="headers">
+            <div id="image"><img src="https://assets-v2.scaler.com/assets/academy/testimonial_images/Soumya-74407d22ad638ec30f6490504031de4089e28f667588594495b016126a55ed71.png.gz"  height="30px" width="30px"></div>
+            <div id="m0">
+              <div id="m1">Soumya Darbari</div>
+              <div id="m2">SDE2</div>
+              <div id="m3"><img src="https://assets-v2.scaler.com/assets/academy/png/tataaig-d4ce005fa15097c58573c567e22b5a91073507bf5f96a34f2b453b47b4d0f3ae.png.gz" height="40px" width="40px"></div>
+            </div>
+          </div>
+            <div id="pic"><img src="https://assets-v2.scaler.com/assets/academy/svg/scaler-logo-3186d07c6e09a5adf40102518812e5746d8476829f276493ebf9ca40350c6787.svg.gz" height="30px" width="30px"></div>
+          </div>
+          </div>
+          <div class="card-body text-success">
+            <h5 class="card-title"></h5>
+            <p class="card-text" style="color: black;">Scaler exceeded my expectations in a way I had never even thought possible. I expected a single mentor from Scaler, but I ended up getting several people who guided me throughout..</p>
+          </div>
+          <div class="card-footer bg-transparent border-success" style="color:blue;">Read More on scaler ></div>
+        </div>
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-success">
+            <div id="h1">
+            <div id="headers">
+            <div id="image"><img src="https://assets-v2.scaler.com/assets/academy/testimonial_images/sai-02e4f264add146be86ea216d98dbe43be8d3e23dee16adefd3ca876f8273c1b7.jpg.gz"  height="30px" width="30px"></div>
+            <div id="m0">
+              <div id="m1">Soumya Darbari</div>
+              <div id="m2">SDE2</div>
+              <div id="m3"><img src="https://assets-v2.scaler.com/assets/academy/png/tataaig-d4ce005fa15097c58573c567e22b5a91073507bf5f96a34f2b453b47b4d0f3ae.png.gz" height="40px" width="40px"></div>
+            </div>
+          </div>
+            <div id="pic"><img src="https://assets-v2.scaler.com/assets/academy/svg/scaler-logo-3186d07c6e09a5adf40102518812e5746d8476829f276493ebf9ca40350c6787.svg.gz" height="30px" width="30px"></div>
+          </div>
+          </div>
+          <div class="card-body text-success">
+            <h5 class="card-title"></h5>
+            <p class="card-text" style="color: black;">Scaler exceeded my expectations in a way I had never even thought possible. I expected a single mentor from Scaler, but I ended up getting several people who guided me throughout..</p>
+          </div>
+          <div class="card-footer bg-transparent border-success" style="color:blue;">Read More on scaler ></div>
+        </div>
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-success">
+            <div id="h1">
+            <div id="headers">
+            <div id="image"><img src="https://assets-v2.scaler.com/assets/academy/testimonial_images/Brijesh-677da55420e524562a01df15f1d1d5fd6d01946c7ba11e8a0f601ad552e4ec5b.png.gz"  height="30px" width="30px"></div>
+            <div id="m0">
+              <div id="m1">Mayur Kharche</div>
+              <div id="m2">SDE3</div>
+              <div id="m3"><img src="https://assets-v2.scaler.com/assets/academy/png/WorkSpan-427831466ab04f09824b442c134f231712fe78a6aa9b5f411e3c6c476ecf1a1d.png.gz" height="50px" width="50px"></div>
+            </div>
+          </div>
+            <div id="pic"><img src="https://assets-v2.scaler.com/assets/academy/svg/scaler-logo-3186d07c6e09a5adf40102518812e5746d8476829f276493ebf9ca40350c6787.svg.gz" height="30px" width="30px"></div>
+          </div>
+          </div>
+          <div class="card-body text-success">
+            <h5 class="card-title"></h5>
+            <p class="card-text" style="color: black;">Scaler exceeded my expectations in a way I had never even thought possible. I expected a single mentor from Scaler, but I ended up getting several people who guided me throughout..</p>
+          </div>
+          <div class="card-footer bg-transparent border-success" style="color: blue;">Read More on scaler ></div>
+        </div>
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-success">
+            <div id="h1">
+            <div id="headers">
+            <div id="image"><img src="https://assets-v2.scaler.com/assets/academy/testimonial_images/Soumya-74407d22ad638ec30f6490504031de4089e28f667588594495b016126a55ed71.png.gz"  height="30px" width="30px"></div>
+            <div id="m0">
+              <div id="m1">Soumya Darbari</div>
+              <div id="m2">SDE2</div>
+              <div id="m3"><img src="https://assets-v2.scaler.com/assets/academy/png/freecharge-f093606b8c563763b95b8ad76a072b5f796c38da8eb7000ec2656c968e972c20.png.gz" height="40px" width="40px"></div>
+            </div>
+          </div>
+            <div id="pic"><img src="https://assets-v2.scaler.com/assets/academy/svg/scaler-logo-3186d07c6e09a5adf40102518812e5746d8476829f276493ebf9ca40350c6787.svg.gz" height="30px" width="30px"></div>
+          </div>
+          </div>
+          <div class="card-body text-success">
+            <h5 class="card-title"></h5>
+            <p class="card-text" style="color: black;">Scaler exceeded my expectations in a way I had never even thought possible. I expected a single mentor from Scaler, but I ended up getting several people who guided me throughout..</p>
+          </div>
+          <div class="card-footer bg-transparent border-success" style="color:blue;">Read More on scaler ></div>
+        </div>
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-success">
+            <div id="h1">
+            <div id="headers">
+            <div id="image"><img src="https://assets-v2.scaler.com/assets/academy/testimonial_images/Raghvendra-3599c9a25d5ed0de5a07dfa4cff2aa9d074cc0ae095a0421f6a4f1c939ad3f71.png.gz"  height="30px" width="30px"></div>
+            <div id="m0">
+              <div id="m1">Soumya Darbari</div>
+              <div id="m2">SDE2</div>
+              <div id="m3"><img src="https://assets-v2.scaler.com/assets/academy/svg/SpotDraft-9166bef538e53bdd4dd7589f339b41f7ee49695bdbbbacb85f09b98bc8872f21.svg.gz" height="40px" width="40px"></div>
+            </div>
+          </div>
+            <div id="pic"><img src="https://assets-v2.scaler.com/assets/academy/svg/scaler-logo-3186d07c6e09a5adf40102518812e5746d8476829f276493ebf9ca40350c6787.svg.gz" height="30px" width="30px"></div>
+          </div>
+          </div>
+          <div class="card-body text-success">
+            <h5 class="card-title"></h5>
+            <p class="card-text" style="color: black;">Scaler exceeded my expectations in a way I had never even thought possible. I expected a single mentor from Scaler, but I ended up getting several people who guided me throughout..</p>
+          </div>
+          <div class="card-footer bg-transparent border-success" style="color:blue;">Read More on scaler ></div>
+        </div>
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-success">
+            <div id="h1">
+            <div id="headers">
+            <div id="image"><img src="./Mayur-5dfb2aa6bbe5104c66761a9a8f777f8e3de89c23d09af6ded7047e98c2cac8d5.png.gz"  height="30px" width="30px"></div>
+            <div id="m0">
+              <div id="m1">Mayur Kharche</div>
+              <div id="m2">SDE3</div>
+              <div id="m3"><img src="https://assets-v2.scaler.com/assets/academy/png/clevertap-6e234e34c1c49fef44c861f700432e4cf4c27b227e0c52839360dbba37a36bf1.png.gz" height="50px" width="50px"></div>
+            </div>
+          </div>
+            <div id="pic"><img src="https://assets-v2.scaler.com/assets/academy/svg/scaler-logo-3186d07c6e09a5adf40102518812e5746d8476829f276493ebf9ca40350c6787.svg.gz" height="30px" width="30px"></div>
+          </div>
+          </div>
+          <div class="card-body text-success">
+            <h5 class="card-title"></h5>
+            <p class="card-text" style="color: black;">Scaler exceeded my expectations in a way I had never even thought possible. I expected a single mentor from Scaler, but I ended up getting several people who guided me throughout..</p>
+          </div>
+          <div class="card-footer bg-transparent border-success" style="color: blue;">Read More on scaler ></div>
+        </div>
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-success">
+            <div id="h1">
+            <div id="headers">
+            <div id="image"><img src="https://assets-v2.scaler.com/assets/academy/testimonial_images/Soumya-74407d22ad638ec30f6490504031de4089e28f667588594495b016126a55ed71.png.gz"  height="30px" width="30px"></div>
+            <div id="m0">
+              <div id="m1">Soumya Darbari</div>
+              <div id="m2">SDE2</div>
+              <div id="m3"><img src="https://th.bing.com/th?id=OIP.HGbM5WQ710B2z-Prz0SnEgHaHD&w=256&h=244&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" height="40px" width="40px"></div>
+            </div>
+          </div>
+            <div id="pic"><img src="https://assets-v2.scaler.com/assets/academy/svg/scaler-logo-3186d07c6e09a5adf40102518812e5746d8476829f276493ebf9ca40350c6787.svg.gz" height="30px" width="30px"></div>
+          </div>
+          </div>
+          <div class="card-body text-success">
+            <h5 class="card-title"></h5>
+            <p class="card-text" style="color: black;">Scaler exceeded my expectations in a way I had never even thought possible. I expected a single mentor from Scaler, but I ended up getting several people who guided me throughout..</p>
+          </div>
+          <div class="card-footer bg-transparent border-success" style="color:blue;">Read More on scaler ></div>
+        </div>
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-success">
+            <div id="h1">
+            <div id="headers">
+            <div id="image"><img src="https://assets-v2.scaler.com/assets/academy/testimonial_images/Raghvendra-3599c9a25d5ed0de5a07dfa4cff2aa9d074cc0ae095a0421f6a4f1c939ad3f71.png.gz"  height="30px" width="30px"></div>
+            <div id="m0">
+              <div id="m1">Soumya Darbari</div>
+              <div id="m2">SDE2</div>
+              <div id="m3"><img src="https://assets-v2.scaler.com/assets/academy/png/tataaig-d4ce005fa15097c58573c567e22b5a91073507bf5f96a34f2b453b47b4d0f3ae.png.gz" height="40px" width="40px"></div>
+            </div>
+          </div>
+            <div id="pic"><img src="https://assets-v2.scaler.com/assets/academy/svg/scaler-logo-3186d07c6e09a5adf40102518812e5746d8476829f276493ebf9ca40350c6787.svg.gz" height="30px" width="30px"></div>
+          </div>
+          </div>
+          <div class="card-body text-success">
+            <h5 class="card-title"></h5>
+            <p class="card-text" style="color: black;">Scaler exceeded my expectations in a way I had never even thought possible. I expected a single mentor from Scaler, but I ended up getting several people who guided me throughout..</p>
+          </div>
+          <div class="card-footer bg-transparent border-success" style="color:blue;">Read More on scaler ></div>
+        </div>
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-success">
+            <div id="h1">
+            <div id="headers">
+            <div id="image"><img src="./Mayur-5dfb2aa6bbe5104c66761a9a8f777f8e3de89c23d09af6ded7047e98c2cac8d5.png.gz"  height="30px" width="30px"></div>
+            <div id="m0">
+              <div id="m1">Mayur Kharche</div>
+              <div id="m2">SDE3</div>
+              <div id="m3"><img src="https://assets-v2.scaler.com/assets/academy/png/tataaig-d4ce005fa15097c58573c567e22b5a91073507bf5f96a34f2b453b47b4d0f3ae.png.gz" height="50px" width="50px"></div>
+            </div>
+          </div>
+            <div id="pic"><img src="https://assets-v2.scaler.com/assets/academy/svg/scaler-logo-3186d07c6e09a5adf40102518812e5746d8476829f276493ebf9ca40350c6787.svg.gz" height="30px" width="30px"></div>
+          </div>
+          </div>
+          <div class="card-body text-success">
+            <h5 class="card-title"></h5>
+            <p class="card-text" style="color: black;">Scaler exceeded my expectations in a way I had never even thought possible. I expected a single mentor from Scaler, but I ended up getting several people who guided me throughout..</p>
+          </div>
+          <div class="card-footer bg-transparent border-success" style="color: blue;">Read More on scaler ></div>
+        </div>
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-success">
+            <div id="h1">
+            <div id="headers">
+            <div id="image"><img src="https://assets-v2.scaler.com/assets/academy/testimonial_images/Soumya-74407d22ad638ec30f6490504031de4089e28f667588594495b016126a55ed71.png.gz"  height="30px" width="30px"></div>
+            <div id="m0">
+              <div id="m1">Soumya Darbari</div>
+              <div id="m2">SDE2</div>
+              <div id="m3"><img src="https://th.bing.com/th?id=OIP.HGbM5WQ710B2z-Prz0SnEgHaHD&w=256&h=244&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" height="40px" width="40px"></div>
+            </div>
+          </div>
+            <div id="pic"><img src="https://assets-v2.scaler.com/assets/academy/svg/scaler-logo-3186d07c6e09a5adf40102518812e5746d8476829f276493ebf9ca40350c6787.svg.gz" height="30px" width="30px"></div>
+          </div>
+          </div>
+          <div class="card-body text-success">
+            <h5 class="card-title"></h5>
+            <p class="card-text" style="color: black;">Scaler exceeded my expectations in a way I had never even thought possible. I expected a single mentor from Scaler, but I ended up getting several people who guided me throughout..</p>
+          </div>
+          <div class="card-footer bg-transparent border-success" style="color:blue;">Read More on scaler ></div>
+        </div>
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-success">
+            <div id="h1">
+            <div id="headers">
+            <div id="image"><img src="https://assets-v2.scaler.com/assets/academy/testimonial_images/Raghvendra-3599c9a25d5ed0de5a07dfa4cff2aa9d074cc0ae095a0421f6a4f1c939ad3f71.png.gz"  height="30px" width="30px"></div>
+            <div id="m0">
+              <div id="m1">Soumya Darbari</div>
+              <div id="m2">SDE2</div>
+              <div id="m3"><img src="https://th.bing.com/th?id=OIP.HGbM5WQ710B2z-Prz0SnEgHaHD&w=256&h=244&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" height="40px" width="40px"></div>
+            </div>
+          </div>
+            <div id="pic"><img src="https://assets-v2.scaler.com/assets/academy/svg/scaler-logo-3186d07c6e09a5adf40102518812e5746d8476829f276493ebf9ca40350c6787.svg.gz" height="30px" width="30px"></div>
+          </div>
+          </div>
+          <div class="card-body text-success">
+            <h5 class="card-title"></h5>
+            <p class="card-text" style="color: black;">Scaler exceeded my expectations in a way I had never even thought possible. I expected a single mentor from Scaler, but I ended up getting several people who guided me throughout..</p>
+          </div>
+          <div class="card-footer bg-transparent border-success" style="color:blue;">Read More on scaler ></div>
+        </div>
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-success">
+            <div id="h1">
+            <div id="headers">
+            <div id="image"><img src="./Mayur-5dfb2aa6bbe5104c66761a9a8f777f8e3de89c23d09af6ded7047e98c2cac8d5.png.gz"></div>
+            <div id="m0">
+              <div id="m1">Mayur Kharche</div>
+              <div id="m2">SDE3</div>
+              <div id="m3"><img src="https://assets-v2.scaler.com/assets/academy/png/WorkSpan-427831466ab04f09824b442c134f231712fe78a6aa9b5f411e3c6c476ecf1a1d.png.gz" height="50px" width="50px"></div>
+            </div>
+          </div>
+            <div id="pic"><img src="https://assets-v2.scaler.com/assets/academy/svg/scaler-logo-3186d07c6e09a5adf40102518812e5746d8476829f276493ebf9ca40350c6787.svg.gz" height="30px" width="30px"></div>
+          </div>
+          </div>
+          <div class="card-body text-success">
+            <h5 class="card-title"></h5>
+            <p class="card-text" style="color: black;">Scaler exceeded my expectations in a way I had never even thought possible. I expected a single mentor from Scaler, but I ended up getting several people who guided me throughout..</p>
+          </div>
+          <div class="card-footer bg-transparent border-success" style="color: blue;">Read More on scaler ></div>
+        </div>
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-success">
+            <div id="h1">
+            <div id="headers">
+            <div id="image"><img src="https://assets-v2.scaler.com/assets/academy/testimonial_images/Soumya-74407d22ad638ec30f6490504031de4089e28f667588594495b016126a55ed71.png.gz"></div>
+            <div id="m0">
+              <div id="m1">Soumya Darbari</div>
+              <div id="m2">SDE2</div>
+              <div id="m3"><img src="https://th.bing.com/th?id=OIP.HGbM5WQ710B2z-Prz0SnEgHaHD&w=256&h=244&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" height="40px" width="40px"></div>
+            </div>
+          </div>
+            <div id="pic"><img src="https://assets-v2.scaler.com/assets/academy/svg/scaler-logo-3186d07c6e09a5adf40102518812e5746d8476829f276493ebf9ca40350c6787.svg.gz" height="30px" width="30px"></div>
+          </div>
+          </div>
+          <div class="card-body text-success">
+            <h5 class="card-title"></h5>
+            <p class="card-text" style="color: black;">Scaler exceeded my expectations in a way I had never even thought possible. I expected a single mentor from Scaler, but I ended up getting several people who guided me throughout..</p>
+          </div>
+          <div class="card-footer bg-transparent border-success" style="color:blue;">Read More on scaler ></div>
+        </div>
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-success">
+            <div id="h1">
+            <div id="headers">
+            <div id="image"><img src="https://assets-v2.scaler.com/assets/academy/testimonial_images/Raghvendra-3599c9a25d5ed0de5a07dfa4cff2aa9d074cc0ae095a0421f6a4f1c939ad3f71.png.gz"></div>
+            <div id="m0">
+              <div id="m1">Soumya Darbari</div>
+              <div id="m2">SDE2</div>
+              <div id="m3"><img src="https://th.bing.com/th?id=OIP.HGbM5WQ710B2z-Prz0SnEgHaHD&w=256&h=244&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" height="40px" width="40px"></div>
+            </div>
+          </div>
+            <div id="pic"><img src="https://assets-v2.scaler.com/assets/academy/svg/scaler-logo-3186d07c6e09a5adf40102518812e5746d8476829f276493ebf9ca40350c6787.svg.gz" height="30px" width="30px"></div>
+          </div>
+          </div>
+          <div class="card-body text-success">
+            <h5 class="card-title"></h5>
+            <p class="card-text" style="color: black;">Scaler exceeded my expectations in a way I had never even thought possible. I expected a single mentor from Scaler, but I ended up getting several people who guided me throughout..</p>
+          </div>
+          <div class="card-footer bg-transparent border-success" style="color:blue;">Read More on scaler ></div>
+        </div>
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-success">
+            <div id="h1">
+            <div id="headers">
+            <div id="image"><img src="./Mayur-5dfb2aa6bbe5104c66761a9a8f777f8e3de89c23d09af6ded7047e98c2cac8d5.png.gz"></div>
+            <div id="m0">
+              <div id="m1">Mayur Kharche</div>
+              <div id="m2">SDE3</div>
+              <div id="m3"><img src="./1.jpeg" height="50px" width="50px"></div>
+            </div>
+          </div>
+            <div id="pic"><img src="https://assets-v2.scaler.com/assets/academy/svg/scaler-logo-3186d07c6e09a5adf40102518812e5746d8476829f276493ebf9ca40350c6787.svg.gz" height="30px" width="30px"></div>
+          </div>
+          </div>
+          <div class="card-body text-success">
+            <h5 class="card-title"></h5>
+            <p class="card-text" style="color: black;">Scaler exceeded my expectations in a way I had never even thought possible. I expected a single mentor from Scaler, but I ended up getting several people who guided me throughout..</p>
+          </div>
+          <div class="card-footer bg-transparent border-success" style="color: blue;">Read More on scaler ></div>
+        </div>
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-success">
+            <div id="h1">
+            <div id="headers">
+            <div id="image"><img src="https://assets-v2.scaler.com/assets/academy/testimonial_images/Soumya-74407d22ad638ec30f6490504031de4089e28f667588594495b016126a55ed71.png.gz"></div>
+            <div id="m0">
+              <div id="m1">Soumya Darbari</div>
+              <div id="m2">SDE2</div>
+              <div id="m3"><img src="https://th.bing.com/th?id=OIP.HGbM5WQ710B2z-Prz0SnEgHaHD&w=256&h=244&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" height="40px" width="40px"></div>
+            </div>
+          </div>
+            <div id="pic"><img src="https://assets-v2.scaler.com/assets/academy/svg/scaler-logo-3186d07c6e09a5adf40102518812e5746d8476829f276493ebf9ca40350c6787.svg.gz" height="30px" width="30px"></div>
+          </div>
+          </div>
+          <div class="card-body text-success">
+            <h5 class="card-title"></h5>
+            <p class="card-text" style="color: black;">Scaler exceeded my expectations in a way I had never even thought possible. I expected a single mentor from Scaler, but I ended up getting several people who guided me throughout..</p>
+          </div>
+          <div class="card-footer bg-transparent border-success" style="color:blue;">Read More on scaler ></div>
+        </div>
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-success">
+            <div id="h1">
+            <div id="headers">
+            <div id="image"><img src="https://assets-v2.scaler.com/assets/academy/testimonial_images/Raghvendra-3599c9a25d5ed0de5a07dfa4cff2aa9d074cc0ae095a0421f6a4f1c939ad3f71.png.gz"></div>
+            <div id="m0">
+              <div id="m1">Soumya Darbari</div>
+              <div id="m2">SDE2</div>
+              <div id="m3"><img src="https://th.bing.com/th?id=OIP.HGbM5WQ710B2z-Prz0SnEgHaHD&w=256&h=244&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" height="40px" width="40px"></div>
+            </div>
+          </div>
+            <div id="pic"><img src="https://assets-v2.scaler.com/assets/academy/svg/scaler-logo-3186d07c6e09a5adf40102518812e5746d8476829f276493ebf9ca40350c6787.svg.gz" height="30px" width="30px"></div>
+          </div>
+          </div>
+          <div class="card-body text-success">
+            <h5 class="card-title"></h5>
+            <p class="card-text" style="color: black;">Scaler exceeded my expectations in a way I had never even thought possible. I expected a single mentor from Scaler, but I ended up getting several people who guided me throughout..</p>
+          </div>
+          <div class="card-footer bg-transparent border-success" style="color:blue;">Read More on scaler ></div>
+        </div>
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-success">
+            <div id="h1">
+            <div id="headers">
+            <div id="image"><img src="./Mayur-5dfb2aa6bbe5104c66761a9a8f777f8e3de89c23d09af6ded7047e98c2cac8d5.png.gz"></div>
+            <div id="m0">
+              <div id="m1">Mayur Kharche</div>
+              <div id="m2">SDE3</div>
+              <div id="m3"><img src="./1.jpeg" height="50px" width="50px"></div>
+            </div>
+          </div>
+            <div id="pic"><img src="https://assets-v2.scaler.com/assets/academy/svg/scaler-logo-3186d07c6e09a5adf40102518812e5746d8476829f276493ebf9ca40350c6787.svg.gz" height="30px" width="30px"></div>
+          </div>
+          </div>
+          <div class="card-body text-success">
+            <h5 class="card-title"></h5>
+            <p class="card-text" style="color: black;">Scaler exceeded my expectations in a way I had never even thought possible. I expected a single mentor from Scaler, but I ended up getting several people who guided me throughout..</p>
+          </div>
+          <div class="card-footer bg-transparent border-success" style="color: blue;">Read More on scaler ></div>
+        </div>
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-success">
+            <div id="h1">
+            <div id="headers">
+            <div id="image"><img src="https://assets-v2.scaler.com/assets/academy/testimonial_images/Soumya-74407d22ad638ec30f6490504031de4089e28f667588594495b016126a55ed71.png.gz"></div>
+            <div id="m0">
+              <div id="m1">Soumya Darbari</div>
+              <div id="m2">SDE2</div>
+              <div id="m3"><img src="https://th.bing.com/th?id=OIP.HGbM5WQ710B2z-Prz0SnEgHaHD&w=256&h=244&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" height="40px" width="40px"></div>
+            </div>
+          </div>
+            <div id="pic"><img src="https://assets-v2.scaler.com/assets/academy/svg/scaler-logo-3186d07c6e09a5adf40102518812e5746d8476829f276493ebf9ca40350c6787.svg.gz" height="30px" width="30px"></div>
+          </div>
+          </div>
+          <div class="card-body text-success">
+            <h5 class="card-title"></h5>
+            <p class="card-text" style="color: black;">Scaler exceeded my expectations in a way I had never even thought possible. I expected a single mentor from Scaler, but I ended up getting several people who guided me throughout..</p>
+          </div>
+          <div class="card-footer bg-transparent border-success" style="color:blue;">Read More on scaler ></div>
+        </div>
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-success">
+            <div id="h1">
+            <div id="headers">
+            <div id="image"><img src="https://assets-v2.scaler.com/assets/academy/testimonial_images/Raghvendra-3599c9a25d5ed0de5a07dfa4cff2aa9d074cc0ae095a0421f6a4f1c939ad3f71.png.gz"></div>
+            <div id="m0">
+              <div id="m1">Soumya Darbari</div>
+              <div id="m2">SDE2</div>
+              <div id="m3"><img src="https://th.bing.com/th?id=OIP.HGbM5WQ710B2z-Prz0SnEgHaHD&w=256&h=244&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" height="40px" width="40px"></div>
+            </div>
+          </div>
+            <div id="pic"><img src="https://assets-v2.scaler.com/assets/academy/svg/scaler-logo-3186d07c6e09a5adf40102518812e5746d8476829f276493ebf9ca40350c6787.svg.gz" height="30px" width="30px"></div>
+          </div>
+          </div>
+          <div class="card-body text-success">
+            <h5 class="card-title"></h5>
+            <p class="card-text" style="color: black;">Scaler exceeded my expectations in a way I had never even thought possible. I expected a single mentor from Scaler, but I ended up getting several people who guided me throughout..</p>
+          </div>
+          <div class="card-footer bg-transparent border-success" style="color:blue;">Read More on scaler ></div>
+        </div>
+      </div>
+    </div>
+    <div id="teaching">
+      <div id="t0">Our <b> teaching army</b> will make you<b>confident about your fundamentals</b></div>
+      <div id="p">Our tutors have built scalable systems and realise the real-life importance of DSA and System Design, not just in interviews but throughout your career</div>
+      <div id="t1">
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div id="cards">
+              <div class="card border-success mb-3" style="max-width: 18rem;">
+                <div class="card-header bg-transparent border-success"><img src="https://assets-v2.scaler.com/assets/academy/png/anshuman-85e4f5324d3c0bb62627a137362e7f7bdbc01564f70872f2a11124d780ff6f2f.png.gz" height="100%;" width="100%"></div>
+                <div class="card-body text-success">
+                  <h5 class="card-title">Anshuman Singh</h5>
+                  <p class="card-text">EX <img src="https://tse4.mm.bing.net/th?id=OIP.UlK_kSGle6KEpyhpamH5YgHaEH&pid=Api&P=0&h=180" height="30px" width="190px" alt=""></p>
+                </div>
+                <div class="card-footer bg-transparent border-success">READ MORE ></div>
+              </div>
+              <div class="card border-success mb-3" style="max-width: 18rem;">
+                <div class="card-header bg-transparent border-success"><img src="https://assets-v2.scaler.com/assets/academy/png/mohit-215feea4e7e876cd6eb67c183c05a0c80c1131aa160c7272fad6ff34565f81cb.png.gz" height="100%;" width="100%"></div>
+                <div class="card-body text-success">
+                  <h5 class="card-title">Mohith Yadav</h5>
+                  <p class="card-text">EX <img src="https://tse4.mm.bing.net/th?id=OIP.KCzWnbfabdUUli4v25y-_AHaEK&pid=Api&P=0&h=180" height="30px" width="100px" alt=""></p>
+                </div>
+                <div class="card-footer bg-transparent border-success">READ MORE ></div>
+              </div>
+              <div class="card border-success mb-3" style="max-width: 18rem;">
+                <div class="card-header bg-transparent border-success"><img src="https://assets-v2.scaler.com/assets/academy/png/kshitij-1610f9adccde2749361d883081e123b52c81084930ab29645a0b9052bb91f687.png.gz" height="100%;" width="100%"></div>
+                <div class="card-body text-success">
+                  <h5 class="card-title">Kshitij Mishra</h5>
+                  <p class="card-text">EX <img src="https://tse4.mm.bing.net/th?id=OIP.Pt5mLG016bIjqd57J4lehQHaBf&pid=Api&P=0&h=180" height="30px" width="100px" alt=""></p>
+                </div>
+                <div class="card-footer bg-transparent border-success">READ MORE ></div>
+              </div>
+              <div class="card border-success mb-3" style="max-width: 18rem;">
+                <div class="card-header bg-transparent border-success"><img src="https://assets-v2.scaler.com/assets/academy/png/tarun-bb05b0be024562a1dffb59614d2fba22ea736a5b5551d5d3b2c84dc51570d003.png.gz" height="100%;" width="100%"></div>
+                <div class="card-body text-success">
+                  <h5 class="card-title">Tarun Malhotra</h5>
+                  <p class="card-text">EX <img src="https://tse4.mm.bing.net/th?id=OIP.Pt5mLG016bIjqd57J4lehQHaBf&pid=Api&P=0&h=180" height="30px" width="100px" alt=""></p>
+                </div>
+                <div class="card-footer bg-transparent border-success">READ MORE ></div>
+              </div>
+            </div>
+            </div>
+            <div class="carousel-item">
+              <div id="cards">
+                <div class="card border-success mb-3" style="max-width: 18rem;">
+                  <div class="card-header bg-transparent border-success"><img src="https://assets-v2.scaler.com/assets/academy/png/anshuman-85e4f5324d3c0bb62627a137362e7f7bdbc01564f70872f2a11124d780ff6f2f.png.gz" height="100%;" width="100%"></div>
+                  <div class="card-body text-success">
+                    <h5 class="card-title">Anshuman Singh</h5>
+                    <p class="card-text">EX <img src="https://tse2.mm.bing.net/th?id=OIP.arezqGrVeKUAmuKTaXGGEgHaEK&pid=Api&P=0&h=180" height="30px" width="100px" alt=""></p>
+                  </div>
+                  <div class="card-footer bg-transparent border-success">READ MORE ></div>
+                </div>
+                <div class="card border-success mb-3" style="max-width: 18rem;">
+                  <div class="card-header bg-transparent border-success"><img src="https://assets-v2.scaler.com/assets/academy/png/mohit-215feea4e7e876cd6eb67c183c05a0c80c1131aa160c7272fad6ff34565f81cb.png.gz" height="100%;" width="100%"></div>
+                  <div class="card-body text-success">
+                    <h5 class="card-title">Mohith Yadav</h5>
+                    <p class="card-text">EX <img src="https://tse1.mm.bing.net/th?id=OIP.GL29ySajj7mPuljaD1NbgQHaBg&pid=Api&P=0&h=180" height="30px" width="100px" alt=""></p>
+                  </div>
+                  <div class="card-footer bg-transparent border-success">READ MORE ></div>
+                </div>
+                <div class="card border-success mb-3" style="max-width: 18rem;">
+                  <div class="card-header bg-transparent border-success"><img src="https://assets-v2.scaler.com/assets/academy/png/kshitij-1610f9adccde2749361d883081e123b52c81084930ab29645a0b9052bb91f687.png.gz" height="100%;" width="100%"></div>
+                  <div class="card-body text-success">
+                    <h5 class="card-title">Kshitij Mishra</h5>
+                    <p class="card-text">EX <img src="https://tse1.mm.bing.net/th?id=OIP.D0Fc0UjpaURcsiMP51F1OgHaEK&pid=Api&P=0&h=180" height="30px" width="100px" alt=""></p>
+                  </div>
+                  <div class="card-footer bg-transparent border-success">READ MORE ></div>
+                </div>
+                <div class="card border-success mb-3" style="max-width: 18rem;">
+                  <div class="card-header bg-transparent border-success"><img src="https://assets-v2.scaler.com/assets/academy/png/tarun-bb05b0be024562a1dffb59614d2fba22ea736a5b5551d5d3b2c84dc51570d003.png.gz" height="100%;" width="100%"></div>
+                  <div class="card-body text-success">
+                    <h5 class="card-title">Tarun Malhotra</h5>
+                    <p class="card-text">EX <img src="https://tse1.mm.bing.net/th?id=OIP.GZLyxxqy37_F45-VdOISPgHaD4&pid=Api&P=0&h=180" height="30px" width="100px" alt=""></p>
+                  </div>
+                  <div class="card-footer bg-transparent border-success">READ MORE ></div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div id="cards">
+                <div class="card border-success mb-3" style="max-width: 18rem;">
+                  <div class="card-header bg-transparent border-success"><img src="https://assets-v2.scaler.com/assets/academy/png/anshuman-85e4f5324d3c0bb62627a137362e7f7bdbc01564f70872f2a11124d780ff6f2f.png.gz" height="100%;" width="100%"></div>
+                  <div class="card-body text-success">
+                    <h5 class="card-title">Anshuman Singh</h5>
+                    <p class="card-text">EX <img src="https://tse4.mm.bing.net/th?id=OIP.KCzWnbfabdUUli4v25y-_AHaEK&pid=Api&P=0&h=180" height="30px" width="100px" alt=""></p>
+                  </div>
+                  <div class="card-footer bg-transparent border-success">READ MORE ></div>
+                </div>
+                <div class="card border-success mb-3" style="max-width: 18rem;">
+                  <div class="card-header bg-transparent border-success"><img src="https://assets-v2.scaler.com/assets/academy/png/mohit-215feea4e7e876cd6eb67c183c05a0c80c1131aa160c7272fad6ff34565f81cb.png.gz" height="100%;" width="100%"></div>
+                  <div class="card-body text-success">
+                    <h5 class="card-title">Mohith Yadav</h5>
+                    <p class="card-text">EX <img src="https://tse3.mm.bing.net/th?id=OIP.hhaHnGAIWFl654GZ-d2euQHaBf&pid=Api&P=0&h=180" height="30px" width="100px" alt=""></p>
+                  </div>
+                  <div class="card-footer bg-transparent border-success">READ MORE ></div>
+                </div>
+                <div class="card border-success mb-3" style="max-width: 18rem;">
+                  <div class="card-header bg-transparent border-success"><img src="https://assets-v2.scaler.com/assets/academy/png/kshitij-1610f9adccde2749361d883081e123b52c81084930ab29645a0b9052bb91f687.png.gz" height="100%;" width="100%"></div>
+                  <div class="card-body text-success">
+                    <h5 class="card-title">Kshitij Mishra</h5>
+                    <p class="card-text">EX <img src="https://tse4.mm.bing.net/th?id=OIP.KCzWnbfabdUUli4v25y-_AHaEK&pid=Api&P=0&h=180" height="30px" width="100px" alt=""></p>
+                  </div>
+                  <div class="card-footer bg-transparent border-success">READ MORE ></div>
+                </div>
+                <div class="card border-success mb-3" style="max-width: 18rem;">
+                  <div class="card-header bg-transparent border-success"><img src="https://assets-v2.scaler.com/assets/academy/png/tarun-bb05b0be024562a1dffb59614d2fba22ea736a5b5551d5d3b2c84dc51570d003.png.gz" height="100%;" width="100%"></div>
+                  <div class="card-body text-success">
+                    <h5 class="card-title">Tarun Malhotra</h5>
+                    <p class="card-text">EX <img src="https://tse4.mm.bing.net/th?id=OIP.Dvw7O1Gno3sxp9Wjmg-r6gHaEK&pid=Api&P=0&h=180" height="30px" width="100px" alt=""></p>
+                  </div>
+                  <div class="card-footer bg-transparent border-success">READ MORE ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="scaler">
+      <div id="s1"><img src="https://assets-v2.scaler.com/assets/scaler/png/Group 242-ad5ecbe718f9788691d11aa1b9bfaa5d5c889fbcbeb806f4e73de269007c05f3.png.gz"></div>
+      <div id="s2">
+        <div id="s3">Become a Scaler Mentor</div>
+        <div id="s4">A chance to give back to the community. Mentor Scaler students and help them unlock their true potential.</div>
+      </div>
+      <div id="s5">
+        <button>KNOW MORE</button>
+      </div>
+    </div>
+    <div id="next">
+      <div id="n1">In education and in life, an <b>aspirational peer group</b> always takes <b>learning to </b><b> the next level.</b> Your peers inspire you to be better </div>
+      <!-- <div id="n2"><b>the next level.</b> Your peers inspire you to be better</div> -->
+      <div id="p">Via <b>ScalerChat</b>  you can interact with your peers across all classes and batches and even our alumni. Collaborate on projects, share job referrals & interview experiences, compete with the best, make new friends - the possibilities are endless and our community has something for everyone!</div>
+      <div id="n3">Here are some of the many useful channels on ScalerChat:</div>
+      <div id="n4">
+        <div id="n5">
+          <div id="n6">
+            <img src="https://assets-v2.scaler.com/assets/academy/svg/job-openings-selected-d46ebe4f4ea0c3722620fedfd3445327993625e622d9741248e6a014f1d612ec.svg.gz" alt="">
+            <div id="n7">Informatin On Job Openings</div>
+          </div>
+          <div id="n6">
+            <img src="https://assets-v2.scaler.com/assets/academy/svg/project-collaborations-selected-a5130a9df783aa8e4939d301086cbf4f7f78bcd54a8fee77980ee4569e3afeef.svg.gz" alt="">
+            <div id="n7">Project Collaboration</div>
+          </div>
+          <div id="n6">
+            <img src="https://assets-v2.scaler.com/assets/academy/svg/authentic-interview-experiences-b40069a6205981dc858042a3ef9fcb692979d95f27c805c13f628036113613d3.svg.gz" height="50px" width="50px" alt="">
+            <div id="n7">Authentic Interview Experiences</div>
+          </div>
+          <div id="n6">
+            <img src="https://assets-v2.scaler.com/assets/academy/svg/competitive-coding-0fce677bcac2335ad8580ddc4075e83deda9c6f406f72061dda65319fd0908a2.svg.gz" height="50px" width="50px" alt="">
+            <div id="n7">Competitive Coding</div>
+          </div>
+          <div id="n6">
+            <img src="https://assets-v2.scaler.com/assets/academy/svg/announcement-e68649358703255b51556b042a3a6cad74b460e84cefb371dd564bc3a9fce48b.svg.gz" height="50px" width="50px" alt="">
+            <div id="n7">Major Announcements</div>
+          </div>
+        </div>
+        <div id="n8">
+          <img src="https://assets-v2.scaler.com/assets/academy/png/chat-1-2d10a2d51deab39986dc5b3fa1546214fd5fadc502e81c190cdff0ab7e8a9eb5.png.gz" height="470px" width="700px" alt="">
+        </div>
+      </div>
+    </div>
+    <div id="services">
+      <div id="s1">Career services</div>
+      <div id="s2">Along with preparing you for the job, we also help you prepare for your search & your interviews</div>
+      <div id="cards">
+        <div class="card" style="width: 15rem;">
+          <img src="https://assets-v2.scaler.com/assets/academy/svg/employer-d308ffc80a2a4dcd539cdfc4da50dec20698c52fff259ff2dae4eea5dfb15e94.svg.gz" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Dedicated recruiter team & 100+ employer partners help bring you diverse options</p>
+          </div>
+        </div>
+        <div class="card" style="width: 15rem;">
+          <img src="https://assets-v2.scaler.com/assets/academy/svg/community-6fa9a0023c30456b10b76caa66f2de9daff9a4c74cc61bf19892cff4021c2a94.svg.gz" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Exchange job opportunities with our extensive Scaler student community</p>
+          </div>
+        </div>
+        <div class="card" style="width: 15rem;">
+          <img src="https://assets-v2.scaler.com/assets/academy/svg/mock-3ef075c86047b3d501bbef3e91e533db4d3215e30107f5e6645ce11dc7a358eb.svg.gz" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Practice mock interviews with people working in the industry</p>
+          </div>
+        </div>
+        <div class="card" style="width: 15rem;">
+          <img src="https://assets-v2.scaler.com/assets/academy/svg/resume-b9775f453cdc3079a7031ec687839bbdab8b6cadf2c8f68ba0dfaf8e63045e2e.svg.gz" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Optimize your resume & LinkedIn profile with our experienced experts</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="roadmap">
+      <div id="r1">Confused about which company to target next? <b>Try Our FREE Career Roadmap.</b></div>
+      <button>GET FREE CAREER ROADMAP</button>
+    </div>
+    <div id="learning">
+      <div id="l0"><b>Start your learning journey</b> or make some Maggi? In 2 minutes, you can do both!</div>
+      <div id="l1">
+        <div class="card text mb-3" style="max-width: 14rem;">
+          <div class="card-header" style="color: white; font-weight: bold;">1.</div>
+          <div class="card-body" >
+            <h5 class="card-title" style="color: white; width: 120px;">Easy Registration</h5>
+            <p class="card-text" style="color: white;">In <2 minutes, make a new account or login using social media / Interviewbit</p>
+          </div>
+        </div>
+        <div class="card text mb-3" style="max-width: 14rem;background-image: url(https://assets-v2.scaler.com/assets/academy/svg/carousel-2-9564cde8d38ebab1459025fdef2ce4ab5234c0eb513f8adcb2f1372239658666.svg.gz); ">
+          <div class="card-header" style="color: white; font-weight: bold;">2.</div>
+          <div class="card-body" >
+            <h5 class="card-title" style="color: white; width: 120px;">Quick Evaluation</h5>
+            <p class="card-text" style="color: white;">Simple 30 minutes MCQ test, focused on aptitude and basic coding to find the right course for you</p>
+          </div>
+        </div>
+        <div class="card text mb-3" style="max-width: 14rem;background-image: url(https://assets-v2.scaler.com/assets/academy/svg/carousel-3-2e0b3720f1392a3e14891c535812590f2fbbd783345b01fafd9b31e490478a81.svg.gz);">
+          <div class="card-header" style="color: white; font-weight: bold;">3.</div>
+          <div class="card-body" >
+            <h5 class="card-title" style="color: white; width: 120px;">Enroll in your course</h5>
+            <p class="card-text" style="color: white;">Sign up with our various EMI options to swiftly kickstart your learning journey</p>
+          </div>
+        </div>
+        <div class="card text mb-3" style="max-width: 14rem; background-image: url(https://assets-v2.scaler.com/assets/academy/svg/carousel-4-00d16bc0a8527953681077555f504bd54ca8cc03896d1272ad62ffc77d116eb8.svg.gz);">
+          <div class="card-header" style="color: white; font-weight: bold;">4.</div>
+          <div class="card-body" >
+            <h5 class="card-title" style="color: white; width: 120px;">Upgrade your batch!</h5>
+            <p class="card-text" style="color: white;">Want a shorter course? Take the coding challenge after enrollment
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="question">
+      <div id="q1">Frequently Asked Questions</div>
+      <div id="q2">
+        <div id="q3">
+          <div id="q4">Program</div>
+          <div id="q4">Curriculam</div>
+          <div id="q4">Teaching</div>
+          <div id="q4">Teaching Assistants</div>
+          <div id="q4">Entrance Test</div>
+          <div id="q4">Mentors</div>
+          <div id="q4">Placment Support</div>
+          <div id="q4">Tution Fee</div>
+        </div>
+        <div id="q5">
+          <div id="q6">Program</div>
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne">
+                  What are the Beginner, Intermediate and Advanced sections?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                <div class="accordion-body">
+                  <div id="p">Each Scaler Academy batch (a new batch is launched every month) has three sections - Beginner, Intermediate and Advanced section. All the three sections start at the same time. Applicants are sorted into the three sections based on a written entrance test. The course content does change between the three sections and the course duration is different as well. The curriculum and duration is given below. For more information, please visit www.scaler.com/academy and download our curriculum brochure.
+                    1.Advanced section -
+The duration of this section is 31 weeks.
+Students in this section would be taught: Problem Solving and CS Fundamentals (15 weeks) and System Design with project (15 weeks). Students can choose a specialisation between fullstack and backend engineering during the System Design module in the last 15 weeks
+2.Intermediate section -
+The duration of this section is 39 weeks.
+In addition to all the content that the ‘Advanced section’ students would be taught, students of this section would be taught an additional module of Programming Constructs (8 weeks)
+3.Beginner section -
+The duration of this section is 47 weeks
+In addition to all the content that the ‘Advanced section’ students would be taught, students of this section would be taught an additional module of Introduction to Programming (8 weeks)
+Please note that the upcoming November batch would not accept applicants for the Beginner section. It would only accept applicants for the Intermediate and Advanced sections.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo">
+                  Do all sections start at the same time?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                 <div id="p">Yes, all sections start at the same time but end at different times, depending on the duration of the course for that section. The Advanced section ends in 31 weeks, the Intermediate section ends in 39 weeks and the Beginner section ends in 47 weeks.
+                  Please note that the upcoming November batch would not accept applicants for the Beginner section. It would only accept applicants for the Intermediate and Advanced sections.</div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree">
+                  Should I join the Beginner, Intermediate or Advanced section?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                 <div id="p">Your eligibility for the Beginner, Intermediate or Advanced section is decided basis an entrance test.
+                 </div>                 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree">
+                  What is the duration of this program?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  <div id="p">Depending on which section you are allotted, the duration of the course could range from 31 weeks to 47 weeks. This translates to 7 months to 11 months.</div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div id="part1">
+      <div id="one">
+        <div id="main">
+        <img src="https://assets-v2.scaler.com/assets/scaler/svg/scaler-logo-white-22af1fc1c42561ab06c87229e1e8abb555716fe2a1d817482067cb8f005e1799.svg.gz" alt="" id="photo">
+        <div id="line">Engineered with LOVE by </div>
+        <img src="https://assets-v2.scaler.com/assets/scaler/png/made-by-interviewbit-footer-cf88e6220897577618a5dff23eef6f55d95d787a22c0f88b4ffa54d6c3dbf5d6.png.gz" alt="" id="photo2">
+        </div>
+        <div id="sub">
+        <div id="block">
+          <div id="first">
+            <div id="text">Download the App</div>
+            <img src="https://assets-v2.scaler.com/assets/scaler/svg/google-play-store-342b4c76febbbd5db4a5e0072d721a2c4ae132a0e9d359d0e39d252a5a4a48de.svg.gz" alt="" id="photo3">
+
+          </div>
+          <div id="second">
+            <img src="https://assets-v2.scaler.com/assets/scaler/svg/qr_code-6a66adcb8b6ae184ff4eb7dc2b1e26461494bfca27cb596f4946c8b6d0a6667f.svg.gz" alt="" id="qr">
+          </div>
+        </div>
+        </div>
+      </div>
+      <div id="two">
+        <div id="heading">Resources</div>
+        <div id="matter">
+          <div id="text">About us</div>
+          <div id="text">Become a Mentor</div>
+          <div id="text">Become a TA</div>
+          <div id="text">Become a Career Coach</div>
+          <div id="text">Scaler Blog</div>
+          <div id="text">Frequently Asked Questions</div>
+          <div id="text">Join Our Discord</div>
+          <div id="text">Terms of Use</div>
+          <div id="text">Privacy Policy</div>
+
+        </div>
+      </div>
+      <div id="three">
+        <div id="heading">Contact us</div>
+        <div id="matter">
+          <div id="text">Email: hello@scaler.com</div>
+        </div>
+      </div>
+      <div id="four">
+        <div id="heading">Follow us on</div>
+        <div id="matter">
+        <div id="line">
+          <i class="fa-brands fa-youtube"></i>
+          <div id="text">Youtube</div>
+        </div>
+        <div id="line">
+          <i class="fa-brands fa-linkedin"></i>
+          <div id="text">LinkedIn</div>
+        </div>
+        <div id="line">
+          <i class="fa-brands fa-square-facebook"></i>
+          <div id="text">Facebook</div>
+        </div>
+        <div id="line">
+          <i class="fa-brands fa-twitter"></i>
+          <div id="text">Twitter</div>
+          </div>
+        <div id="line">
+          <i class="fa-brands fa-instagram"></i>
+            <div id="text">Instagram</div>
+            </div>
+        <div id="line">
+          <i class="fa-brands fa-quora"></i>
+            <div id="text">Reviews on Quora</div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div id="part3">
+      <div id="heading">Tutorials</div>
+      <div id="lines">Data Structures Tutorial | Python Tutorial | Java Tutorial | DBMS Tutorial | C Tutorial | JavaScript Tutorial | C++ Tutorial | SQL Tutorial | <br>Data Science Tutorial | Software Engineering Tutorial | HTML Tutorial | CSS Tutorial</br></div>
+    </div>
+  </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
